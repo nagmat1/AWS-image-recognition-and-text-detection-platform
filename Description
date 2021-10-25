@@ -1,0 +1,3 @@
+In this Project we create 2 instances on AWS cloud. 
+Instance1 retrieves files from S3 and runs image recognition, then sends file names to SQS queue where we have car confidence>90%. 
+Instance2 retrives file names from SQS and runs text detection and writes the data to file. 
