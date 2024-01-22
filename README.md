@@ -1,4 +1,5 @@
-# UNRCS642_aws_ass1
+# AWS image recognition and text detection platform
+
 Aws image recongnition and text recognition
 
 For aws credentials: 
