@@ -1,3 +1,5 @@
+This GitHub repository "AWS Image Recognition and Text Detection Platform" demonstrates a project that sets up two AWS EC2 instances. The first instance retrieves files from an S3 bucket, performs image recognition, and sends filenames with a high confidence of detecting cars (>90%) to an SQS queue. The second instance reads these filenames from the SQS queue, performs text detection on the images, and writes the detected text to a file. The project is built using Java and AWS services.
+
 # AWS image recognition and text detection platform
 
 Aws image recongnition and text recognition
